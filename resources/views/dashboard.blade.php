@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="{{ asset('css/dashboard.css') }}">
 </head>
 <body>
+<!-- 
+    <h1>Welcome, {{ $name }}</h1>
+    <p>Your Google ID: {{ $googleId }}</p> -->
     <header>
         <nav class="navbar">
             <div class="logo">
