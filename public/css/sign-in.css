@@ -19,7 +19,7 @@
         font-size: 24px;
     }
     .form-input {
-        width: 100%;
+        width: 95%;
         padding: 10px;
         margin: 10px 0;
         border: 1px solid #ccc;
@@ -52,20 +52,21 @@
         margin: 0 10px;
     }
     .social-login-button {
-        width: 100%;
+        width: 95%;
         border: 1px solid #ccc;
         border-radius: 5px;
         padding: 10px;
         margin-bottom: 10px;
         display: flex;
         align-items: center;
-        justify-content: center;
+        /* justify-content: center; */
         cursor: pointer;
         background-color: #fff;
     }
     .social-login-button img {
-        width: 20px;
-        margin-right: 10px;
+        width: 25px;
+        margin-right: 30px;
+        margin-left: 10px;
     }
     .login-link {
         margin-top: 10px;
