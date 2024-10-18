@@ -24,3 +24,9 @@ Route::get('/tentang_bebras', function () {
 Route::get('/bebras/redirect', [BebrasSocialiteController::class, 'redirect']);
 
 Route::get('/bebras/google/callback', [BebrasSocialiteController::class, 'callback']);
+
+//cookies
+Route::get('/login', [SocialiteController::class, 'redirect'])->name('login');
+Route::get('/login/callback', [SocialiteController::class, 'callback']);
+Route::post('/logout', [SocialiteController::class, 'logout'])->name('logout');
+Route::get('/dashboard', [SocialiteController::class, 'showDashboard'])->middleware('auth');
