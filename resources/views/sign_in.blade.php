@@ -14,6 +14,7 @@
         <p>Sudah punya akun? <a href="/login" class="login-link">Masuk</a></p>
         <div class="or-divider">ATAU</div>
         <div class="social-login-button">
+            <a href="/bebras/redirect">Lanjutkan dengan Google</a>
             <img src="{{ asset('img/google-icon.png') }}" alt="Google"> Lanjutkan dengan Google
         </div>
         <div class="social-login-button">
