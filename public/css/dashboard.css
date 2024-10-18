@@ -3,23 +3,28 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: #f8f9fa;
-    padding: 10px 20px;
+    background-color: #333; 
+    padding: 20px 20px; 
 }
+
 .nav-links {
     display: flex;
     list-style: none;
 }
+
 .nav-links li {
     margin: 0 10px;
 }
+
 .nav-links a {
     text-decoration: none;
-    color: #333;
+    color: #fff;
 }
+
 .hero {
     background-color: #b8b8b89c;
     background-size: cover;
@@ -28,14 +33,17 @@ body {
     padding: 100px 20px;
     color: #fff;
 }
+
 .hero-content {
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
 }
+
 footer {
     text-align: center;
-    background-color: #f8f9fa;
-    padding: 10px 0;
+    background-color: #333;
+    color: #fff; 
+    padding: 40px 20px; 
     position: relative;
     bottom: 0;
     width: 100%;
