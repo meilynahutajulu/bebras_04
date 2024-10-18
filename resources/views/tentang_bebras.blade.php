@@ -44,7 +44,7 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="{{ url('/home') }}">Home</a></li>
                 <li class="dropdown">
                     <a href="#">Tentang Bebras</a>
                     <ul class="dropdown-content">

@@ -13,7 +13,7 @@
                 <img src="{{ asset('img/logo-bebras.png') }}" alt="Bebras Indonesia">
             </div>
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
+                <li><a href="{{ url('/home') }}">Home</a></li>
                 <li><a href="{{ url('/tentang_bebras') }}">Tentang Bebras</a></li>
                 <li><a href="sign-in">Sign In</a></li>
             </ul>
