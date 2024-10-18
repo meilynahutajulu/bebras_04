@@ -68,7 +68,7 @@
         <section id="berpikir-komputasional" class="section-content">
             <h1><span class="highlight">Apa itu</span> Berpikir Komputasional?</h1>
             <div class="content">
-                <img src="computational-thinking.png" alt="Berpikir Komputasional">
+                <img src="img/computational-thinking.jpg" alt="Berpikir Komputasional">
                 <p>Berpikir komputasional (Computational Thinking) adalah metode menyelesaikan persoalan dengan menerapkan teknik ilmu komputer (informatika). Tantangan Bebras menyajikan soal-soal yang mendorong siswa untuk berpikir kreatif dan kritis dalam menyelesaikan persoalan dengan menerapkan konsep-konsep berpikir komputasional.</p>
             </div>
         </section>
