@@ -40,12 +40,14 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-
+/* Dropdown Styles */
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #444;
-    min-width: 200px;
+    min-width: 160px; /* Lebar yang lebih sesuai */
+    right: 0; /* Posisikan di kanan dengan jarak dari tepi */
+    margin-right: 10px; /* Jarak dari tepi layar */
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
@@ -66,7 +68,7 @@ nav ul li a:hover {
     display: block;
 }
 
-
+/* Main Section */
 main {
     padding: 40px 20px;
     max-width: 1200px;
@@ -102,10 +104,11 @@ main {
     margin-top: 40px;
 }
 
+/* Footer */
 footer {
-    background-color: #333; 
-    color: #fff; 
-    padding: 40px 20px; 
+    background-color: #333;
+    color: #fff;
+    padding: 40px 240px;
 }
 
 .footer-content {

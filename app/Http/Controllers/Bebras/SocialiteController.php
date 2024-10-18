@@ -35,14 +35,17 @@ class SocialiteController extends Controller
             Auth::login($registeredUser);
             return redirect('/dashboard');
 
-            // Menyimpan cookies setelah login
-            Cookie::queue('google_id', $socialUser->id, 60); // Simpan selama 60 menit
-            Cookie::queue('name', $socialUser->name, 60);
+            // // Menyimpan cookies setelah login
+            // Cookie::queue('google_id', $socialUser->id, 60); // Simpan selama 60 menit
+            // Cookie::queue('name', $socialUser->name, 60);
         }
 
+        Cookie::queue('google_id', $socialUser->id, 60); // Simpan selama 60 menit
+        Cookie::queue('name', $socialUser->name, 60);
+        
         Auth::login($registeredUser);
 
-        return redirect('/dashboard');
+        return redirect('/tentang_bebras');
     }
 
     /**

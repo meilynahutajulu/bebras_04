@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bebras Indonesia</title>
-    <link rel="stylesheet" href="tentang_bebras.css">
+    <link rel="stylesheet" href="css/tentang_bebras.css">
     <script>
         // JavaScript untuk menampilkan konten sesuai menu yang diklik
         function showSection(sectionId) {
@@ -44,7 +44,7 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
+                {{-- <li><a href="/">Home</a></li> --}}
                 <li class="dropdown">
                     <a href="#">Tentang Bebras</a>
                     <ul class="dropdown-content">
@@ -57,7 +57,10 @@
                         <li><a href="#" data-section="bebras-biro">Bebras Biro</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Kontak</a></li>
+                <li class="dropdown">
+                    <a href="/home">Log Out</a>
+                </li>
+                
             </ul>
         </nav>
     </header>
@@ -68,7 +71,7 @@
         <section id="berpikir-komputasional" class="section-content">
             <h1><span class="highlight">Apa itu</span> Berpikir Komputasional?</h1>
             <div class="content">
-                <img src="computational-thinking.png" alt="Berpikir Komputasional">
+                <img src="img/computational-thinking.jpg" alt="Berpikir Komputasional">
                 <p>Berpikir komputasional (Computational Thinking) adalah metode menyelesaikan persoalan dengan menerapkan teknik ilmu komputer (informatika). Tantangan Bebras menyajikan soal-soal yang mendorong siswa untuk berpikir kreatif dan kritis dalam menyelesaikan persoalan dengan menerapkan konsep-konsep berpikir komputasional.</p>
             </div>
         </section>
@@ -96,7 +99,13 @@
             <p>Ini adalah penjelasan tentang ruang lingkup kegiatan Bebras.</p>
         </section>
 
-        <!-- Section lainnya juga bisa ditambahkan di sini... -->
+        <li>
+            <form id="logout-form" action="/logout" method="POST" style="display:none;">
+            </form>
+            <a href="#" onclick="document.getElementById('logout-form').submit()" style="padding: 10px 20px; background-color: #333; color: #fff; text-decoration: none; border-radius: 5px;">
+            </a>
+        </li>
+        
     </main>
 
     <!-- Footer -->
