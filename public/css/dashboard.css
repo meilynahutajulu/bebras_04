@@ -1,3 +1,4 @@
+/* dashboard.css */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -43,7 +44,7 @@ footer {
     text-align: center;
     background-color: #333;
     color: #fff; 
-    padding: 40px 20px; 
+    padding: 40px 20px;  /* Sama seperti tentang_bebras.css untuk konsistensi */
     position: relative;
     bottom: 0;
     width: 100%;
