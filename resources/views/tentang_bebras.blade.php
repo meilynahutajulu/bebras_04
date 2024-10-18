@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bebras Indonesia</title>
-    <link rel="stylesheet" href="css/tentang_bebras.css">
+    <link rel="stylesheet" href="tentang_bebras.css">
     <script>
         // JavaScript untuk menampilkan konten sesuai menu yang diklik
         function showSection(sectionId) {
@@ -44,7 +44,7 @@
         </div>
         <nav>
             <ul>
-                <li><a href="/">Home</a></li>
+                <li><a href="#">Home</a></li>
                 <li class="dropdown">
                     <a href="#">Tentang Bebras</a>
                     <ul class="dropdown-content">

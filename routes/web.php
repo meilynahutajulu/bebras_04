@@ -8,11 +8,15 @@ Route::get('/', function () {
     return view('dashboard');
 });
 
+Route::get('/home', function () {
+    return view('dashboard');
+});
+
 Route::get('/sign-in', function () {
     return view('sign_in');
 });
 
-Route::get('/about', function () {
+Route::get('/tentang_bebras', function () {
     return view('tentang_bebras');
 });
 
@@ -20,3 +24,9 @@ Route::get('/about', function () {
 Route::get('/bebras/redirect', [BebrasSocialiteController::class, 'redirect']);
 
 Route::get('/bebras/google/callback', [BebrasSocialiteController::class, 'callback']);
+
+//cookies
+Route::get('/login', [SocialiteController::class, 'redirect'])->name('login');
+Route::get('/login/callback', [SocialiteController::class, 'callback']);
+Route::post('/logout', [SocialiteController::class, 'logout'])->name('logout');
+Route::get('/dashboard', [SocialiteController::class, 'showDashboard'])->middleware('auth');
