@@ -14,7 +14,7 @@
         <p>Sudah punya akun? <a href="/login" class="login-link">Masuk</a></p>
         <div class="or-divider">ATAU</div>
         <div class="social-login-button">
-            <img src="{{ asset('img/google-icon.jpg') }}" alt="Google"> Lanjutkan dengan Google
+            <img src="{{ asset('img/google-icon.png') }}" alt="Google"> Lanjutkan dengan Google
         </div>
         <div class="social-login-button">
             <img src="{{ asset('img/facebook-icon.png')}}" alt="Facebook"> Lanjutkan dengan Facebook
