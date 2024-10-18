@@ -14,7 +14,7 @@
             </div>
             <ul class="nav-links">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Tentang Bebras</a></li>
+                <li><a href="about">Tentang Bebras</a></li>
                 <li><a href="sign-in">Sign In</a></li>
             </ul>
         </nav>
