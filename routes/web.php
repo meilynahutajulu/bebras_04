@@ -12,6 +12,10 @@ Route::get('/sign-in', function () {
     return view('sign_in');
 });
 
+Route::get('/tentang_bebras', function () {
+    return view('tentang_bebras');
+});
+
  
 Route::get('/bebras/redirect', [BebrasSocialiteController::class, 'redirect']);
 
